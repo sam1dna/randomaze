@@ -14,7 +14,7 @@ proc walldrawer
 	add ax,cx
 	shl ax, 2
 	mov bx,ax
-	mov [byte es:bx], 15
+	mov [dw es:bx], 15
 
     ret
 endp
